@@ -5,11 +5,11 @@ import { Row } from './components/Row/Row';
 function App() {
   return (
     <div className="App">
-      <Row title="NETFLIX ORIGUINALS" fetchUrl={requests.feachNetflixOriginals} isLargeRow />
-      <Row title="Top Rated" fetchUrl={requests.feactTopRated} />
-      <Row title="Comedy Movies" fetchUrl={requests.feactComedyMovies} />
-      <Row title="Romance Movies" fetchUrl={requests.feactRomanceMovies} />
-      <Row title="DOcumentaries" fetchUrl={requests.feactDocumentMovies} />
+      <Row title="NETFLIX ORIGUINALS" fetchUrl={requests.fetchNetflixOriginals} isLargeRow />
+      <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
+      <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
+      <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
+      <Row title="DOcumentaries" fetchUrl={requests.fetchDocumentMovies} />
     </div>
   );
 }
